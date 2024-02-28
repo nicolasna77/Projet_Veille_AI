@@ -2,7 +2,7 @@ Projet Veille AI
 
 Description:
 
-Le Projet Veille AI est une application Python qui récupère automatiquement des articles à partir de plusieurs sources d'actualités en ligne et génère des résumés concis de ces articles. En utilisant des bibliothèques telles que feedparser et langchain, cette application collecte des flux RSS à partir de diverses sources sélectionnées, puis utilise un modèle de langue pré-entraîné (llama2) pour générer des résumés informatifs des articles récupérés. Ces résumés sont affichés à l'utilisateur, offrant ainsi une vue d'ensemble rapide et facilement digestible des dernières nouvelles provenant de différentes sources.
+Le Projet Veille AI est une application Python qui récupère automatiquement des articles à partir de plusieurs sources d'actualités en ligne et génère des résumés concis de ces articles. En utilisant des bibliothèques telles que feedparser et langchain, cette application collecte des flux RSS à partir de diverses sources sélectionnées, puis utilise un modèle de langue pré-entraîné (llama2) pour générer des résumés informatifs des articles récupérés. 
 
 Démarrage:
 
@@ -18,28 +18,29 @@ Installation:
 	git clone https://github.com/nicolasna77/Projet_Veille_AI.git
 
 2. Accédez au répertoire de votre projet :
-   
-	cd Projet_Veille_AI
 
-3. Créez un environnement virtuel à l'aide de venv :
+   		cd Projet_Veille_AI
 
-    	python -m venv venv
+4. Créez un environnement virtuel à l'aide de venv :
 
-4. Activez l'environnement virtuel :
+    		python -m venv venv
+
+5. Activez l'environnement virtuel :
     - Sur Windows :
         
-	venv\Scripts\activate
+    		source venv\Scripts\activate
 
     - Sur Linux/macOS :
        
-	 source venv/bin/activate
+		  source venv/bin/activate
 
-5. Installez les dépendances requises à partir du fichier requirements.txt :
-    pip install -r requirements.txt
+6. Installez les dépendances requises à partir du fichier requirements.txt :
 
-6. Téléchargez le modèle llama2 en utilisant ollama :
+   		pip install -r requirements.txt
+
+7. Téléchargez le modèle llama2 en utilisant ollama :
     
-	ollama pull llama2
+		ollama pull llama2
 
 Utilisation:
 
