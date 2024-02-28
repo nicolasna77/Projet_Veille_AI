@@ -14,25 +14,31 @@ Prérequis:
 Installation:
 
 1. Clonez ce dépôt sur votre machine locale :
-    git clone https://github.com/Projet_Veille_AI/Projet_Veille_AI.git
+    git clone https://github.com/nicolasna77/Projet_Veille_AI.git
 
 2. Accédez au répertoire de votre projet :
-    cd Projet_Veille_AI
+   
+	 cd Projet_Veille_AI
 
 3. Créez un environnement virtuel à l'aide de venv :
-    python -m venv venv
+
+    	python -m venv venv
 
 4. Activez l'environnement virtuel :
     - Sur Windows :
-        venv\Scripts\activate
+        
+	venv\Scripts\activate
+
     - Sur Linux/macOS :
-        source venv/bin/activate
+       
+	 source venv/bin/activate
 
 5. Installez les dépendances requises à partir du fichier requirements.txt :
     pip install -r requirements.txt
 
 6. Téléchargez le modèle llama2 en utilisant ollama :
-    ollama pull llama2
+    
+	ollama pull llama2
 
 Utilisation:
 
