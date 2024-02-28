@@ -14,11 +14,12 @@ Prérequis:
 Installation:
 
 1. Clonez ce dépôt sur votre machine locale :
-    git clone https://github.com/nicolasna77/Projet_Veille_AI.git
+    
+	git clone https://github.com/nicolasna77/Projet_Veille_AI.git
 
 2. Accédez au répertoire de votre projet :
    
-	 cd Projet_Veille_AI
+	cd Projet_Veille_AI
 
 3. Créez un environnement virtuel à l'aide de venv :
 
